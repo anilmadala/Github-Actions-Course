@@ -24,7 +24,7 @@ jobs:
       # Install dependencies
       - name: Install Dependencies
         run: npm ci
-      #it alawys install  package-lock.json  file (npm install/ npm ci)
+      #it alawys install  package-lock.json  file (npm install/ npm ci) indentation
       # Run tests
       - name: Run Tests
         run: npm test
