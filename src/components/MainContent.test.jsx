@@ -16,10 +16,10 @@ describe('MainContent', () => {
 
     const button = screen.getByRole('button');
     await userEvent.click(button);
-    //expect(screen.getByTestId('help-area')).toBeInTheDocument();
+    expect(screen.getByTestId('help-area')).toBeInTheDocument();
 
     //in order to fail workflow i have added this line belwo
-    expect(screen.getByTestId('help-area')).not.toBeInTheDocument();
+    //expect(screen.getByTestId('help-area')).not.toBeInTheDocument();
 
   });
 });
